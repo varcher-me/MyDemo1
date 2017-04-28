@@ -20,5 +20,7 @@
  
     <!-- 和本地bean一样实现服务 -->
     <bean id="demoService" class="com.varcher.dubbo.demo.provider.DemoServiceImpl" />
+    
+    <dubbo:monitor protocol="registry"/>
  
 </beans>
